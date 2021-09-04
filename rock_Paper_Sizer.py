@@ -37,7 +37,7 @@ def main():
 
         round = round - 1
 
-        if ((userChoice == 1 and myChoice == 2) or (userChoice == 1 and myChoice == 3) or (userChoice == 2 and myChoice == 1) or(userChoice == 3 and myChoice == 2)):
+        if ((userChoice == 1 and myChoice == 3) or (userChoice == 2 and myChoice == 1) or(userChoice == 3 and myChoice == 2)):
             print ("\nYou chose {} and chif chose {}".format(choice[userChoice - 1], choice[myChoice - 1]))
             print ("\nWOOOO.....HOOOOO.........You bit chef.......\nOnly {} round left\n".format(round))
             userPoint = userPoint + 100
