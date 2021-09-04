@@ -48,7 +48,7 @@ def main():
             if (userPoint >= 50):
                 userPoint = userPoint - 50
             elif (myPoint >= 50):
-                myPoint = myPoint -5
+                myPoint = myPoint - 50
 
         elif (userChoice > 3 or userChoice <= 0):
             print ("\nWrong input.....Try again! ! !\n")
